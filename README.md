@@ -1,0 +1,41 @@
+# Hacktoberfest_HTML_Profilepage
+
+Participate in Hacktoberfest by contributing to DSC FUTMinna on GitHub! Here is a starter project for first time contributors. #hacktoberfest
+
+Use this project to make your first contribution to an open source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
+
+Celebrate Hacktoberfest by getting involved in the open source community by completing some simple tasks in this project.
+
+This repository is open to all members of the DSC FUTMinna community. Any member may contribute to this project without being a collaborator.
+
+The goal of this repo is to help beginners who are doing their first pull requests. Feel free to join!
+
+## Instruction
+In the index file, look for the 'div' tag.
+
+
+## Git and Pull Request Resources
+  - [Github](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
+  - [The Net Ninja](https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
+  - [Awesome-Git](https://github.com/dictcp/awesome-git)
+
+# How to Create a Pull Request
+
+
+  - Click on the fork on the top to fork this repo.
+  - Go to your repo where you forked the project.
+  - Hit the clone button on your forked repo and copy the given link.
+  - On your terminal / command prompt, type "git clone [put the link here]".
+  - Change the index file in the folder.
+  - Afterward, on your terminal / command prompt, type "git add index.html"; then 'git commit -m "[type a message]" '.
+  - Create a remote to link the repository on github to your local workspace. use "git remote add [remote-name] [put the github link here]".
+  - Push the commit. For example, type "git push [remote-name] master".
+  - Go back to the original repo.
+  - Hit "new pull request" and compare between forks.
+  - Confirm the pull request and that's it!
+
+### Installation
+
+Make sure [git](https://git-scm.com/book/id/v2/Getting-Started-Installing-Git) is installed.
+
+ 
