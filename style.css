@@ -2,81 +2,113 @@
 * {
     box-sizing: border-box;
 }
-h1{
-    margin: 0;
 
+h1 {
+    margin: 0;
 }
-.jumbotron-fluid{
+
+.section.center {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.jumbotron-fluid {
     padding: 10px;
 }
-.center h2{
+
+.center h2 {
     text-align: center;
 }
-.center li{
+
+.center li {
     text-align: center;
 }
+
 li {
     list-style: none;
 }
+
 /* -------- */
-.header-bg{
+.header-bg {
     background-color: #f76c5e;
 }
-.jumbotron-fluid{
+
+.jumbotron-fluid {
     /* background-color: #f76c5e; */
-    
+
     text-align: center;
 }
-.jumbotron-fluid h1{
+
+.jumbotron-fluid h1 {
     color: white;
-    font-size: 8rem;
+    font-size: 4rem;
+    margin: 10px;
 }
-.jumbotron-fluid p{
+
+.jumbotron-fluid .lead {
+    font-size: 2rem;
+}
+
+.jumbotron-fluid p {
     color: white;
-   
+
 }
-#footer{
+
+#footer {
     background-color: blue;
     text-align: center;
     color: red;
     bottom: 0px;
 }
+
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
 }
 
-.title {
-  color: grey;
-  font-size: 18px;
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.card h1 {
+    font-size: 22px;
+}
+
+.card .title {
+    color: grey;
+    font-size: 14px;
 }
 
 button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
 }
 
 a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
 }
 
-button:hover, a:hover {
-  opacity: 0.7;
+button:hover,
+a:hover {
+    opacity: 0.7;
 }
 
-.list-grid ol{
+.list-grid ol {
     column-count: 3;
 }
 
@@ -85,4 +117,3 @@ button:hover, a:hover {
         font-size: 4rem;
     }
 }
-
