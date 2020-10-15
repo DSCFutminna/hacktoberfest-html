@@ -117,3 +117,13 @@ a:hover {
         font-size: 4rem;
     }
 }
+
+.footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #f76c5e;
+   color: white;
+   text-align: center;
+}
